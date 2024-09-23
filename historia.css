@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #cf0202d5; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+a {
+    color: #005EB8; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.container h3 {
+    font-weight: bold;
+    color: #005EB8;
+}
+h1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+h3 {
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Para garantir que eles se movam para a próxima linha se não houver espaço */
+}
+
+.container img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px; /* Adiciona espaço entre as imagens */
+}
+body {
+    background-image: url('imagens/m.supervasco.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Para cobrir toda a tela */
+    background-position: center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para evitar repetição da imagem */
+}
